@@ -1,0 +1,121 @@
+body{
+
+}
+.container{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    background-color: #EFF9F2;
+}
+.lateral{
+    flex:0.25;
+    background-color: #00242B ;
+    color:#78A1BB;
+    height: 100%;
+    list-style: none;
+    padding-left: 40px;
+
+}
+.lateral li{
+    list-style: none;
+    margin-left:-20px;
+}
+.lateral h3{
+    color:#03674F;
+    margin-left: -20px;
+    font-size: 25px;
+    font-family: belgrano;
+    margin-top: 193px;
+    margin-bottom: 0px;
+}
+.lateral h4{
+    margin-left: -20px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.lateral img {
+    width: 200px;
+    border-radius: 500px;
+    margin: 50px auto 95px 18px;
+}
+.infos{
+    display: flex;
+    margin-left: -20px;
+}
+.champs{
+    margin-left: 10px;
+}
+.page{
+    flex:0.75;
+}
+.banniere{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #03674F;
+    height:250px ;
+    color: white;
+    margin-top: 30px;
+    vertical-align: middle;
+}
+.banniere h1{
+    font-family: belgrano;
+    font-size: 50px;
+    margin: 0px auto 0 50px;
+}
+.banniere h2{
+    margin-top:0;
+    padding-left: 50px;
+    font-size: 35px;
+    font-weight: normal;
+}
+.items{
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+}
+.item{
+    border-left: 1px solid white;
+    text-align: center;
+    padding-left: 35px;
+}
+hr{
+    width: 80%;
+    color: white;
+    height: 0.2px;
+}
+.technos{
+    margin-top: -110px;
+}
+.first{
+    border:none;
+    margin-left:-30px;
+}
+main{
+    padding-left: 50px;
+    padding-right: 30px;
+    font-size:18px;
+}
+main h3{
+    color:#03674F;
+    font-family: belgrano;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+main h4{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+main span{
+    font-style: italic;
+}
+main blockquote{
+    margin-top:60px;
+    padding-left: 20px;
+    border-left: #03674F 4px solid;
+    font-size: 18px;
+    margin-bottom: -12px;
+}
