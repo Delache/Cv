@@ -21,7 +21,7 @@
     margin-left: -20px;
     font-size: 25px;
     font-family: belgrano;
-    margin-top: 193px;
+    margin-top: 40px;
     margin-bottom: 0px;
 }
 .lateral h4{
@@ -42,7 +42,7 @@
     margin-left: 10px;
 }
 .page{
-    flex:2;
+    flex:3;
 }
 .banniere{
     display:flex;
@@ -97,7 +97,6 @@ main h3{
     color:#03674F;
     font-family: belgrano;
     font-size: 25px;
-    margin-top: 70px;
     margin-bottom: 10px;
 }
 main h4{
@@ -105,7 +104,9 @@ main h4{
     margin-bottom: 0;
     font-size: 20px;
 }
-
+.loisirs{
+    display: inline;
+}
 main span{
     font-style: italic;
 }
