@@ -7,62 +7,66 @@
 .lateral{
     flex:1;
     background-color: #00242B ;
-    color:#78A1BB;
-    height: 100%;
+    color:#78a1bb;
+    height: 1410px;
     list-style: none;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 .lateral li{
     list-style: none;
-    margin-left:-20px;
 }
 .lateral h3{
     color:#03674F;
-    margin-left: -20px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: belgrano;
-    margin-top: 40px;
-    margin-bottom: 0px;
+    margin-top: 25px;
 }
 .lateral h4{
-    margin-left: -20px;
-    margin-bottom: 0;
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 .lateral img {
-    width: 200px;
+    width: 160px;
     border-radius: 500px;
-    margin: 50px auto 95px 18px;
+    margin: 40px auto 40px 65px;
 }
-.infos{
+.vignettes{
+    margin-left: -10px;
+    margin-right: 10px;
     display: flex;
-    margin-left: -20px;
+    justify-content: space-between;
 }
-.champs{
-    margin-left: 10px;
+.vignette{
+    font-size:14px ;
+    background-color: #03674F;
+    border-radius: 5px;
+    color:white;
+    padding: 5px 10px;
+    margin: 10px;
 }
 .page{
-    flex:3;
+    flex:2;
 }
 .banniere{
     display:flex;
     flex-direction: column;
     justify-content: center;
     background-color: #03674F;
-    height:250px ;
+    height: 180px ;
     color: white;
     margin-top: 30px;
     vertical-align: middle;
 }
 .banniere h1{
     font-family: belgrano;
-    font-size: 50px;
-    margin: 0px auto 0 50px;
+    font-size: 45px;
+    margin: 0px auto 0 5px;
 }
 .banniere h2{
     margin-top:0;
-    padding-left: 50px;
-    font-size: 35px;
+    padding-left: 5px;
+    font-size: 30px;
     font-weight: normal;
 }
 .items{
@@ -74,7 +78,7 @@
 .item{
     border-left: 1px solid white;
     text-align: center;
-    padding-left: 35px;
+    padding-left: 10px;
 }
 hr{
     width: 80%;
@@ -89,31 +93,33 @@ hr{
     margin-left:-30px;
 }
 main{
-    padding-left: 50px;
-    padding-right: 30px;
+    padding: 0 10px 8px 30px;
     font-size:18px;
+    line-height: 21px;
 }
 main h3{
+    margin-top: 40px;
     color:#03674F;
     font-family: belgrano;
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+.loisirs{
+    margin-top: 30px;
+    padding-bottom: 10px; 
 }
 main h4{
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-size: 20px;
-}
-.loisirs{
-    display: inline;
 }
 main span{
     font-style: italic;
 }
 main blockquote{
-    margin-top:60px;
+    margin:45px 0;
     padding-left: 20px;
     border-left: #03674F 4px solid;
     font-size: 18px;
-    margin-bottom: -12px;
+    margin-bottom: -5px;
 }
