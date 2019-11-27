@@ -19,7 +19,7 @@
     color:#03674F;
     font-size: 20px;
     font-family: belgrano;
-    margin-top: 40px;
+    margin-top: 23px;
 }
 .lateral h4{
     font-size: 20px;
@@ -31,7 +31,9 @@
     border-radius: 200px;
     margin: 35px auto 27px 65px;
 }
-
+.competences{
+    margin-top: 20px;
+}
 .vignettes{
     margin-left: -10px;
     margin-right: 10px;
